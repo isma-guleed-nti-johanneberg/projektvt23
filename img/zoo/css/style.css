@@ -1,0 +1,42 @@
+#wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+    justify-content:flex-start;
+    }
+   
+    section {
+    
+        border: 1px solid rgb(0, 243, 36);
+        width: 200px;
+        height: 200px;
+        grid: 10px;
+        background-size: cover;
+        border-radius: 20px;
+        display: flex; 
+        justify-content: center;
+        align-items: flex-start;
+    }
+    #s1 {
+    background-image: url(../img/nameless.png);
+    
+    }
+    #s2 {
+    background-image: url(../img/tiger.png);
+
+    }
+    #s3 {
+    background-image: url(../img/elefant.png);
+    }
+    #s4 {
+    background-image: url(../img/lejon.png);
+    }
+    #s5 {
+        background-image: url(../img/giraff.png);
+    }
+    #s6 {
+        background-image: url(../img/shark);
+
+    }

@@ -7,12 +7,12 @@ let button2= document.querySelector('#button2');
 
 
 button1.addEventListener("click", () => {
-    if (image.getAttribute('width') < 500) {
-        image.setAttribute('width', 500);
-        image.setAttribute('height', 500);
+    if (image.getAttribute('width') < "500rem") {
+        image.setAttribute('width', "500rem");
+        image.setAttribute('height', "500rem");
     } else {
-        image.setAttribute('width', 250);
-        image.setAttribute('height', 250);
+        image.setAttribute('width', "250rem");
+        image.setAttribute('height', "250rem");
     }
 
 
