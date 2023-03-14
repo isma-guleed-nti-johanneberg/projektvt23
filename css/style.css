@@ -1,3 +1,7 @@
+#wrapper {
+display: grid;
+
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +9,7 @@ body {
   }
   
   header {
+    display: grid;
     background-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     display: grid;
@@ -13,6 +18,7 @@ body {
   }
   
   header h1 {
+    display: grid;
     margin: 0;
     font-size: 36px;
   }
@@ -68,3 +74,11 @@ body {
     margin-top: 10px;
     color: #333;
   }
+#menu {
+  display: flex;
+  list-style: none;
+}
+#menu li {
+
+  margin-right: 10px;
+}
